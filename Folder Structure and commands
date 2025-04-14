@@ -1,0 +1,22 @@
+└── password-generator-app
+    ├── Dockerfile
+    ├── requirements.txt
+    └── web
+        ├── app.py
+        ├── password_generator.py
+        └── templates
+            └── index.html
+
+Update and upgrade packages: 
+  app update && upgrade -y
+  mkdir password-generator-app
+  cd password-generator-app
+  vim requirements.txt
+  vim Dockerfile
+  mkdir web
+  cd web
+  vim password_generator.py
+  vim app.py
+  mkdir templates
+  cd templates
+  vim index.html
