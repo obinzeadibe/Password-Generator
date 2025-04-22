@@ -8,7 +8,7 @@
             └── index.html
 
 Update and upgrade packages: 
-  app update && upgrade -y
+  apt update && upgrade -y
   mkdir password-generator-app
   cd password-generator-app
   vim requirements.txt
